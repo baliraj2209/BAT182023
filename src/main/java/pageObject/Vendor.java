@@ -9,7 +9,7 @@ public class Vendor {
 
 	public WebDriver ldriver;
 
-	public Vendor(WebDriver rdriver) {
+	public Vendor (WebDriver rdriver) {
 		 ldriver=rdriver;
 		 PageFactory.initElements(rdriver,this);		
 	}
